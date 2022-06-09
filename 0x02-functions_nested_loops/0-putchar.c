@@ -1,24 +1,19 @@
-#include "main.h"
-
+<S-Insert>#include "main.h"
 /**
- * main -prints _putchar
- *
- * Description: prints _putchar
- *
- * Return: 0 (Success)
- */
+ *  * main - Entry point
+ *   *
+ *    * Return: 0
+ *     */
 
 int main(void)
 {
-	char text[9] = "_putchar";
-	int i = 0;
+		char p[] = "_putchar";
+			int i;
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(text[i]);
-	}
-	_putchar('\n');
-
-	return (0);
-
+				for (i = 0; i < 8; i++)
+						{
+								_putchar(p[i]);
+									}
+					_putchar('\n');
+						return (0);
 }
